@@ -1,11 +1,11 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <time.h>
-#include <conio.h>
-#include <windows.h>
-#include <locale.h>
-#include <stdbool.h>
+#include <stdio.h>   // Para operações de entrada e saída padrão (printf, scanf, etc.).
+#include <stdlib.h>  // Para utilitários gerais, como system(), rand(), malloc(), etc.
+#include <unistd.h>  // Biblioteca para manipulação de chamadas ao sistema em sistemas baseados em Unix (usada aqui possivelmente por engano, pois o código é para Windows).
+#include <time.h>  // Para manipulação de data/hora e geração de números pseudoaleatórios.
+#include <conio.h>  // Para entrada/saída no console (getch, kbhit, etc.).
+#include <windows.h>  // Para manipulações específicas do sistema operacional Windows (cursor, console, etc.).
+#include <locale.h>  // Para configurar o idioma e formatação local (acentos, moeda, etc.).
+#include <stdbool.h>  // Para trabalhar com variáveis booleanas (true, false).
 
 
 
