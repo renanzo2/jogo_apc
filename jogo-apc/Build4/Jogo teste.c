@@ -82,7 +82,7 @@ struct Posicao {
     int y;
 };
 
-// Definições globais (não use extern)
+// Definições globais
 struct Posicao cobra[100];  // Array da cobra
 struct Posicao comida;      // Posição da comida
 int tamanhoCobra = 1;       // Tamanho inicial da cobra
