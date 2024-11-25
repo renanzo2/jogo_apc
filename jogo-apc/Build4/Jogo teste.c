@@ -1,6 +1,6 @@
 #include <stdio.h>   // Para operações de entrada e saída padrão (printf, scanf, etc.).
 #include <stdlib.h>  // Para utilitários gerais, como system(), rand(), malloc(), etc.
-#include <unistd.h>  // Biblioteca para manipulação de chamadas ao sistema em sistemas baseados em Unix (usada aqui possivelmente por engano, pois o código é para Windows).
+#include <unistd.h> 
 #include <time.h>  // Para manipulação de data/hora e geração de números pseudoaleatórios.
 #include <conio.h>  // Para entrada/saída no console (getch, kbhit, etc.).
 #include <windows.h>  // Para manipulações específicas do sistema operacional Windows (cursor, console, etc.).
